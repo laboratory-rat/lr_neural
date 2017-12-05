@@ -1,0 +1,1 @@
+export 'src/component/i_component.dart';
