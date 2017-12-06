@@ -1,7 +1,8 @@
 import 'dart:math' as math;
-import 'i_component.dart';
 
-class NeuralConfig implements IComponent {
+import 'package:lr_neural/i_lr_neural.dart';
+
+class NeuralConfig implements INeuralComponent {
   int batchSize = 10;
   int maxEpoches = 1000;
   int gibbsSamplingChainLength = 30;
